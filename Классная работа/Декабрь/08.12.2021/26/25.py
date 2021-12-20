@@ -3,7 +3,7 @@ with open(file_name, 'r') as f:
 	n, k, m = list(map(int, f.readline().split()))
 	nums = list(map(int, f.readlines()))
 
-nums.sort(reverse=True)
-cheapest_phones = list(reversed(nums))[:k]
-premium_phones = nums[:m]
+nums.sort()
+cheapest_phones = nums[:k]
+premium_phones = nums[-m:]
 print(min(premium_phones), sum(cheapest_phones) // len(cheapest_phones))
