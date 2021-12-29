@@ -1,4 +1,4 @@
-file_name = r'D:\WORK\11 класс\Макиевский Кирилл\Материалы\27data\12\27.txt'
+file_name = r'D:\WORK\11 класс\Макиевский Кирилл\Материалы\27data\12\27-12b.txt'
 with open(file_name, 'r') as f:
 	amount = int(f.readline())
 	nums = list(map(int, f.readlines()))
@@ -16,4 +16,4 @@ for num in nums:
 	elif num % 2 == 0:
 		has2 += 1
 
-print((has6 * (amount - 1)) + has2 * has3)
+print((has6 * (amount - has6)) + has2 * has3 + (has6 * (has6 - 1)) // 2)
