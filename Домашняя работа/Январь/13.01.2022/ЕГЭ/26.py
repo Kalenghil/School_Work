@@ -14,7 +14,6 @@ for i in range(len(things)):
 	if our_sum + things[i][0] <= max_sum:
 		things_to_buy.append(things[i])
 		our_sum += things[i][0]
-		print(our_sum, max_sum)
 	else:
 		exit_idx = i
 		break
