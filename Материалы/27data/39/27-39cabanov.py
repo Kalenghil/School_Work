@@ -1,4 +1,4 @@
-f = open("27b.txt")
+f = open("27-39b.txt")
 
 n = int(f.readline())
 d = dict()
@@ -14,7 +14,7 @@ for i in range(100,999+1):
   if (s in d) and (s1 in d) and s!=s1:
     k = min(d[ s ], d[s1])
     summa+=2*k*sum(map(int,s))
-summa = summa/2
+summa = summa // 2
 
 m = 0
 for i in range(100,999+1):
@@ -27,4 +27,4 @@ for i in range(100,999+1):
       m = max(m, int(s) )
     summa+=k*sum(map(int,s))
 
-print(summa+m)
+print( summa + sum(map(int,str(m))) )
