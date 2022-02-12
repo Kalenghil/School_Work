@@ -12,7 +12,7 @@ def is_prime(num):
 	return True
 
 
-file_name = r'D:\МАТЕРИАЛЫ\ЕГЭ\ege2022kp_январь\27data\88\27-88b.txt'
+file_name = r'C:\Users\Bosnian\Documents\GitHub\School_Work\Материалы\27data\88\27-88b.txt'
 summ = 0
 start = time.time()
 sums = dict()

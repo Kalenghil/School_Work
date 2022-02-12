@@ -1,4 +1,4 @@
-with open( "27.txt" ) as F:
+with open( "27-71b.txt" ) as F:
   N = int(F.readline())
   data = []
   for i in range(N):

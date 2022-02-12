@@ -1,4 +1,4 @@
-# Автор: А. Кабанов
+ # Автор: А. Кабанов
 
 def isSpecNumber(x):
   return x < 0 and abs(x) % 10 == 7

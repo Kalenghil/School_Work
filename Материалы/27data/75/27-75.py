@@ -26,4 +26,4 @@ for i in range(N):
 
 F.close()
 
-print( minLen )
+print(minLen, maxSum)

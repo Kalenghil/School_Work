@@ -1,4 +1,4 @@
-f = open('27-B.txt')
+f = open(r'C:\Users\Bosnian\Documents\GitHub\School_Work\Материалы\27data\72\27-72a.txt')
 n = int(f.readline())
 s = 0
 k71 = [0]*71
